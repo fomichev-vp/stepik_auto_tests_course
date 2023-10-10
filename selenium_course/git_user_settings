@@ -1,0 +1,7 @@
+Перед началом работы, лучше сразу же сконфигурировать имя и e-mail:
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+на Mac удалось только через sudo:
+$ sudo git config --system user.name "John Doe"
+$ sudo git config --system user.email johndoe@example.com
